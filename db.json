@@ -1,0 +1,28 @@
+{
+  "bots": [
+    {
+      "id": "2",
+      "name": "BetaBot",
+      "health": 80,
+      "damage": 30,
+      "armor": 15,
+      "class": "Medic"
+    },
+    {
+      "id": "3",
+      "name": "GammaBot",
+      "health": 120,
+      "damage": 15,
+      "armor": 20,
+      "class": "Tank"
+    },
+    {
+      "id": "4",
+      "name": "DeltaBot",
+      "health": 90,
+      "damage": 25,
+      "armor": 12,
+      "class": "Soldier"
+    }
+  ]
+}
