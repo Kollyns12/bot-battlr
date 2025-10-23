@@ -10,7 +10,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3001/bots')
+    fetch('https://bot-battlr-42w9.onrender.com/bots')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -38,7 +38,7 @@ function App() {
   };
 
   const dischargeBot = (botId) => {
-    fetch(`http://localhost:3001/bots/${botId}`, {
+    fetch(`https://bot-battlr-42w9.onrender.com/bots/${botId}`, {
       method: 'DELETE',
     })
       .then((response) => {
