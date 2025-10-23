@@ -1,20 +1,21 @@
 {
-  "name": "client",
+  "name": "bot-battlr",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://kollyns12.github.io/bot-battlr",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start": "json-server --watch db.json --port 10000"
   },
   "dependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "json-server": "^1.0.0-beta.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
