@@ -1,7 +1,7 @@
 import React from 'react';
 import './YourBotArmy.css';
 
-function YourBotArmy({ army, releaseBot, dischargeBot }) { // Added dischargeBot
+function YourBotArmy({ army, releaseBot, dischargeBot }) { 
   const handleRelease = (bot) => {
     releaseBot(bot);
   };

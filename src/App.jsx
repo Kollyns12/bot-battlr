@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import BotCollection from './BotCollection.jsx'; // Corrected import path
-import YourBotArmy from './YourBotArmy.jsx';     // Corrected import path
+import BotCollection from './BotCollection.jsx'; 
+import YourBotArmy from './YourBotArmy.jsx';     
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('http://localhost:3001/bots')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -38,7 +38,7 @@ function App() {
   };
 
   const dischargeBot = (botId) => {
-    fetch(`http://localhost:8001/bots/${botId}`, {
+    fetch(`http://localhost:3001/bots/${botId}`, {
       method: 'DELETE',
     })
       .then((response) => {

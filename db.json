@@ -1,28 +1,31 @@
 {
   "bots": [
     {
-      "id": "2",
+      "id": 2,
       "name": "BetaBot",
       "health": 80,
       "damage": 30,
       "armor": 15,
-      "class": "Medic"
+      "class": "Medic",
+      "avatar": "https://robohash.org/betabot.png?size=100x100"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "GammaBot",
       "health": 120,
       "damage": 15,
       "armor": 20,
-      "class": "Tank"
+      "class": "Tank",
+      "avatar": "https://robohash.org/gammabot.png?size=100x100"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "DeltaBot",
       "health": 90,
       "damage": 25,
       "armor": 12,
-      "class": "Soldier"
+      "class": "Soldier",
+      "avatar": "https://robohash.org/deltabot.png?size=100x100"
     }
   ]
 }

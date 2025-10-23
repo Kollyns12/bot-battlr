@@ -8,7 +8,7 @@ function BotCard({ bot, enlistBot }) {
 
   return (
     <div className="bot-card">
-      <img src={bot.avatar_url} alt={bot.name} />
+        <img src={bot.avatar} alt={bot.name} width="100" height="100" />
       <h3>{bot.name}</h3>
       <p>Class: {bot.bot_class}</p>
       <p>Health: {bot.health}</p>

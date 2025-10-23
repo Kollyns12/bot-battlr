@@ -4,8 +4,8 @@
     background-color: #e9ecef;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 90%; /* Adjust as needed */
-    max-width: 1200px; /* Adjust as needed */
+    width: 90%; 
+    max-width: 1200px; 
   }
   
   .your-bot-army h2 {

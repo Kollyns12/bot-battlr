@@ -1,6 +1,6 @@
 import React from 'react';
 import BotCard from './BotCard';
-import './BotCollection.css'; // You can create this CSS file
+import './BotCollection.css'; 
 
 function BotCollection({ bots, enlistBot }) {
   return (
